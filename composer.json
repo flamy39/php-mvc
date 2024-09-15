@@ -1,0 +1,13 @@
+{
+    "name": "votre-nom/biblio-mvc",
+    "description": "Projet de bibliothèque avec architecture MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}

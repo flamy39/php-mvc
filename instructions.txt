@@ -1,0 +1,12 @@
+J'ai crée un projet PHP 8 et je souhaite développer en POO avec une base de données MySQL qui s'appelle db_biblio.
+Je veux que mon code utilise une architecture MVC avec un controlleur central "index.php" qui centralise toutes les requêtes.
+Je souhaite mettre en mettre les fonctionnalités suivantes : 
+1. une page permettant de créer un nouveau livre.
+2. une page permettant de lister l'ensemble des livres. 
+3. Un page d'accueil avec un menu permettant d'accéder aux 2 pages précédentes.
+
+Un livre est caractérisé par un id, un titre, un nombre de page et un auteur.
+A la soumission du formulaire de création d'un livre, je souhaite que le livre soit inséré dans la base de données dans la table livre puis revenir à la page d'accueil.
+
+Je veux, comme je l'ai dit avant, que structure le code en utilisant une architecture MVC. 
+Au niveau du modèle, je souhaite une classe Entité (ex: class Livre) et une classe type DAO permettant d'accéder aux données.
