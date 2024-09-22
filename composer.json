@@ -8,6 +8,16 @@
         }
     },
     "require": {
-        "php": "^8.0"
+        "symfony/yaml": "^7.1",
+        "symfony/cache": "^7.1",
+        "doctrine/orm": "^3.2",
+        "doctrine/dbal": "^4.1",
+        "symfony/console": "^7.1"
+    },
+    "require-dev": {
+        "doctrine/data-fixtures": "^1.7"
+    },
+    "scripts": {
+        "doctrine": "php vendor/doctrine/orm/bin/doctrine.php"
     }
 }

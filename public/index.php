@@ -1,6 +1,7 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+//require_once __DIR__ . '/../vendor/autoload.php';
+$entityManager = require_once __DIR__ . '/../config/bootstrap.php';
 
 $dbConfig = require_once __DIR__ . '/../config/database.php';
 $db = new PDO("mysql:host={$dbConfig['host']};dbname={$dbConfig['dbname']}", $dbConfig['user'], $dbConfig['password']);
